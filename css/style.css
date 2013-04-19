@@ -1,0 +1,464 @@
+/** Reset CSS */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/** End Reset CSS **/
+
+/** Main Content **/
+
+body {
+	width: 100%;
+	height: 100%;
+	background: #000;
+}
+
+#content {
+	padding: 150px 0 60px;
+	background: #fafafa url('../images/border.png') bottom repeat-x;
+}
+
+.mapshare {
+	width: 100%;
+	height: 25px;
+	padding: 10px 0 0;
+	background: #fff url('../images/mapsharebg.png');
+	border-bottom: 1px #000 solid;
+	font-size: .9em;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #fff;
+}
+
+.mapshare a {
+	color: #fff;
+}
+
+.main {
+	width: 960px;
+	margin: 0 auto;
+	
+}
+
+#footer {
+	clear: both;
+	min-height: 150px;
+	padding: 50px 0 0;
+	background: #000;
+}
+
+#links {
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 1.3em;
+	text-align: center;
+	color: #fff;
+	border-top: 1px #333 solid;
+	padding: 30px 0 0;
+}
+
+#links a {
+	width: 70px;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 #bfbfbf;
+	padding: 7px;
+	margin: 0 15px;
+}
+
+#logos {
+	clear: both;
+	padding: 50px 0 0;
+	text-align: center;
+}
+
+.vid {
+	clear: both;
+	float: left;
+	background: #3d3d3d;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 7px;
+	margin: 0 0 30px;
+}
+
+.vid:hover{
+	background: #ffff61;
+}
+
+.buynow {
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 1.7em;
+	width: 430px;
+	float: right;
+	text-align: center;
+	color: #fff;
+}
+
+a.getitnow {
+	clear: both;
+	display: block;
+	width: 190px;
+	font-size: 1em;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 #bfbfbf;
+	background: #ffa332;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333', endColorstr='#151514');
+	background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#151514));
+	background: -moz-linear-gradient(top,  #333,  #151514);
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	border: solid 2px #222;
+	padding: 15px 15px 11px;
+	margin: 15px auto 25px;
+}
+
+a.getitnow:hover {
+	background: #ffa332;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d3d3d', endColorstr='#222');
+	background: -webkit-gradient(linear, left top, left bottom, from(#3d3d3d), to(#222));
+	background: -moz-linear-gradient(top,  #3d3d3d,  #222);
+}
+
+.pics {
+	width: 430px;
+	float: right;
+}
+
+.pics a {
+	float: left;
+	margin: 0 0 10px 10px;
+	background: #333;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 7px;
+	line-height: 0;
+}
+
+.pics a:hover {
+	background: #3d3d3d;
+}
+
+.mapsharing {
+	width: 188px;
+	height: 105px;
+	background: url('../images/mapsharinghover.png');
+}
+
+.mapsharing:hover {
+	background: url('../images/mapsharing.png');
+}
+
+.gamerprofile {
+	width: 188px;
+	height: 105px;
+	background: url('../images/gamerprofilehover.png');
+}
+
+.gamerprofile:hover {
+	background: url('../images/gamerprofile.png');
+}
+
+.gamedescription {
+	clear: both;
+	padding: 30px 0 10px;
+	color: #fff;
+	font-family: Palatino, Georgia, 'Times New Roman', Serif;
+	font-size: 1.3em;
+	line-height: 1.1em;
+	text-align: justify;
+	border-top: 1px #333 solid;
+	border-bottom: 1px #333 solid;
+}
+
+.gamedescription strong {
+	font-weight: normal;
+	color: #ffa332;
+}
+
+.gamedescription p {
+	margin: 0 0 20px;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+/** End Main Content **/
+
+
+/** Maps Page **/
+
+#mapsheader {
+	margin: 0 0 30px;
+	font-family: Helvetica, Arial, Sans-Serif;
+}
+
+#mapsheader h1 {
+	font-size: 3em;
+	margin: 0 0 10px;
+}
+
+#mapsheader h2 {
+	font-size: 1.8em;
+	color: #b2b2b2;
+}
+
+#mapsheader h2 a {
+	color: #777;
+}
+
+#mapsheader h2 a:hover {
+	color: #2462ff;
+}
+
+.nomargin {
+	margin: 0;
+}
+
+.mapthumbnail {
+	float: left;
+	width: 272px;
+	height: 450px;
+	margin: 0 10px 25px 10px;
+	background: #fafafa;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 7px;
+	border: #333 7px solid;
+}
+
+.mapthumbnail:hover {
+	border: #3d3d3d 7px solid;
+	background: #fff;
+}
+
+.mapthumbnail h2 {
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 2em;
+	color: #333;
+	padding-bottom: 10px;
+}
+
+.imgwrapper {
+	clear: both;
+	width: 260px;
+	max-height: 200px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.detail {
+	clear: both;
+	font-family: Helvetica, Arial, Sans-Serif;
+	text-align: justify;
+	color: #b2b2b2;
+	padding: 0 0 30px;
+	margin: 15px auto 0;
+	width: 260px;
+}
+
+.dl {
+	width: 260px;
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+	padding: 8px 0;
+	background: #ebebeb;
+	border: 1px solid #2462ff;
+	cursor: pointer;
+}
+
+.dl a {
+	text-decoration: none;
+	font-family: Helvetica, Arial, Sans-Serif;
+	color: #2462ff;
+	font-weight: bold;
+}
+
+/** End Maps Page **/
+
+
+/** Maps Uploader **/
+
+form#mapsuploader {
+	font-family: Helvetica, Arial, Sans-Serif;
+	width: 450px;
+	margin: 0 auto;
+}
+
+#mapsuploader td {
+	padding: 10px 0 0;
+	vertical-align: top;
+}
+
+#mapsuploader td.label {
+	padding: 10px 15px 0 0;
+}
+
+#mapsuploader input[type=text] {
+	width: 300px;
+}
+
+#mapsuploader input[type=submit] {
+	float: right;
+}
+
+#mapsuploader textarea {
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 1em;
+	width: 300px;
+	height: 150px;
+}
+
+.error {
+	float: left;
+	clear: both;
+	font-size: .7em;
+	color: red;
+}
+
+.required {
+	color: black;
+	font-size: 1em;
+}
+
+/** End Maps Uploader
+
+
+/** jQuery Carousel **/
+
+section.acclaim {
+	width: 960px;
+	margin: 0 auto 100px;
+	text-align: center;
+	overflow: hidden;
+}
+
+section.acclaim div section {
+	float: left;
+	width: 960px;
+	position: relative;
+}
+
+section header h1 strong {
+	color: #000;
+}
+
+.indiegamereviewer {
+	font-size: .8em;
+}
+
+.halfbeardshud {
+	font-size: .8em;
+}
+
+header h1 {
+	font-size: 4em;
+	font-family: Helvetica, Arial, Sans-Serif;
+	color: #ffa332;
+}
+
+.attribute {
+	font-size: 1.9em;
+	font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.carousel-control {
+	line-height: 0;
+	display: none;
+}
+
+/** End jQuery Carousel **/
